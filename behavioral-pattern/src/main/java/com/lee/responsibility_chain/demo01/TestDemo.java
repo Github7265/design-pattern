@@ -1,7 +1,7 @@
 package com.lee.responsibility_chain.demo01;
 
 /**
- * 测试类，可以进一步封装抽象，暴露给外部的只有艺哥日志处理类，内部逻辑不有由用户实现
+ * 测试类，可以进一步封装抽象，暴露给外部的只有一个日志处理类，内部逻辑不由用户实现
  */
 public class TestDemo {
     private static AbstractLogger getChainOfLoggers(){
