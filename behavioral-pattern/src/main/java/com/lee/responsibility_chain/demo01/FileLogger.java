@@ -1,5 +1,8 @@
 package com.lee.responsibility_chain.demo01;
 
+/**
+ * 文件日志
+ */
 public class FileLogger extends AbstractLogger {
 
     public FileLogger(int level){
